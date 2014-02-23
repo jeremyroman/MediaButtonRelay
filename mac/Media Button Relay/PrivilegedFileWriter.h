@@ -2,6 +2,6 @@
 
 @interface PrivilegedFileWriter : NSObject
 
-+ (BOOL)writeData:(NSData*)data toFilePath:(NSString*)path;
++ (BOOL)writeData:(NSData*)data toFilePath:(NSString*)path createDirectory:(BOOL)makeDir;
 
 @end

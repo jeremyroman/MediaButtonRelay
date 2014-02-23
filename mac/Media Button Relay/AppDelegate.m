@@ -76,7 +76,7 @@
         return;
     }
 
-    if (![PrivilegedFileWriter writeData:json toFilePath:manifestPath]) {
+    if (![PrivilegedFileWriter writeData:json toFilePath:manifestPath createDirectory:YES]) {
         NSAlert *alert = [NSAlert alertWithMessageText:@"Unable to create manifest."
                                          defaultButton:nil
                                        alternateButton:nil
