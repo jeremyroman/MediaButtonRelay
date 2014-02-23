@@ -1,0 +1,8 @@
+*~
+*.swp
+.DS_Store
+xcuserdata
+/backup
+/chrome.crx
+/chrome.pem
+/dist

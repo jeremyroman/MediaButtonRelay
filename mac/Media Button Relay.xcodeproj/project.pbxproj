@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB7378218B7AABC00CC2689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC6ECB218B72E8600EAC77C /* Foundation.framework */; };
+		3FB7378518B7AABC00CC2689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7378418B7AABC00CC2689 /* main.m */; };
+		3FB7379018B7AC5B00CC2689 /* MediaButtonEventTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7378F18B7AC5B00CC2689 /* MediaButtonEventTap.m */; };
+		3FB7379318B7BB9500CC2689 /* ChromeMessagingHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7379218B7BB9500CC2689 /* ChromeMessagingHost.m */; };
+		3FB7379518B7BD8A00CC2689 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB7379418B7BD8900CC2689 /* ApplicationServices.framework */; };
+		3FB7379618B7BD9500CC2689 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC6EC7C18B72D7000EAC77C /* AppKit.framework */; };
+		3FB737B518B7E54C00CC2689 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC6EC7918B72D6F00EAC77C /* Cocoa.framework */; };
+		3FB737BB18B7E54D00CC2689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FB737B918B7E54D00CC2689 /* InfoPlist.strings */; };
+		3FB737BD18B7E54D00CC2689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB737BC18B7E54D00CC2689 /* main.m */; };
+		3FB737C118B7E54D00CC2689 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3FB737BF18B7E54D00CC2689 /* Credits.rtf */; };
+		3FB737C418B7E54D00CC2689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB737C318B7E54D00CC2689 /* AppDelegate.m */; };
+		3FB737C718B7E54E00CC2689 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB737C518B7E54E00CC2689 /* MainMenu.xib */; };
+		3FB737C918B7E54E00CC2689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB737C818B7E54E00CC2689 /* Images.xcassets */; };
+		3FB737E518B7F11400CC2689 /* Chrome Messaging Host in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FB7378118B7AABB00CC2689 /* Chrome Messaging Host */; };
+		3FB737E818B9A35600CC2689 /* PrivilegedFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB737E718B9A35600CC2689 /* PrivilegedFileWriter.m */; };
+		3FB737EA18B9A3BD00CC2689 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB737E918B9A3BD00CC2689 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB737E118B7E5BA00CC2689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC6EC6E18B72D6D00EAC77C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB7378018B7AABB00CC2689;
+			remoteInfo = "Chrome Messaging Host";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FB7377F18B7AABB00CC2689 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FB737E418B7F10300CC2689 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				3FB737E518B7F11400CC2689 /* Chrome Messaging Host in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FB7378118B7AABB00CC2689 /* Chrome Messaging Host */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chrome Messaging Host"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB7378418B7AABC00CC2689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB7378718B7AABC00CC2689 /* Chrome Messaging Host-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chrome Messaging Host-Prefix.pch"; sourceTree = "<group>"; };
+		3FB7378E18B7AC5B00CC2689 /* MediaButtonEventTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaButtonEventTap.h; path = "Common Code/MediaButtonEventTap.h"; sourceTree = "<group>"; };
+		3FB7378F18B7AC5B00CC2689 /* MediaButtonEventTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaButtonEventTap.m; path = "Common Code/MediaButtonEventTap.m"; sourceTree = "<group>"; };
+		3FB7379118B7BB9500CC2689 /* ChromeMessagingHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromeMessagingHost.h; sourceTree = "<group>"; };
+		3FB7379218B7BB9500CC2689 /* ChromeMessagingHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChromeMessagingHost.m; sourceTree = "<group>"; };
+		3FB7379418B7BD8900CC2689 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		3FB7379C18B7E09500CC2689 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3FB737B418B7E54C00CC2689 /* Media Button Relay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Button Relay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB737B818B7E54D00CC2689 /* Media Button Relay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Media Button Relay-Info.plist"; sourceTree = "<group>"; };
+		3FB737BA18B7E54D00CC2689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FB737BC18B7E54D00CC2689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB737BE18B7E54D00CC2689 /* Media Button Relay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Media Button Relay-Prefix.pch"; sourceTree = "<group>"; };
+		3FB737C018B7E54D00CC2689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3FB737C218B7E54D00CC2689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FB737C318B7E54D00CC2689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FB737C618B7E54E00CC2689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3FB737C818B7E54E00CC2689 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FB737E618B9A35600CC2689 /* PrivilegedFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivilegedFileWriter.h; sourceTree = "<group>"; };
+		3FB737E718B9A35600CC2689 /* PrivilegedFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivilegedFileWriter.m; sourceTree = "<group>"; };
+		3FB737E918B9A3BD00CC2689 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3FC6EC7918B72D6F00EAC77C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3FC6EC7C18B72D7000EAC77C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3FC6EC7D18B72D7000EAC77C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3FC6EC7E18B72D7000EAC77C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FC6ECB218B72E8600EAC77C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB7377E18B7AABB00CC2689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB7379618B7BD9500CC2689 /* AppKit.framework in Frameworks */,
+				3FB7379518B7BD8A00CC2689 /* ApplicationServices.framework in Frameworks */,
+				3FB7378218B7AABC00CC2689 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB737B118B7E54C00CC2689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB737EA18B9A3BD00CC2689 /* Security.framework in Frameworks */,
+				3FB737B518B7E54C00CC2689 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB7378318B7AABC00CC2689 /* Chrome Messaging Host */ = {
+			isa = PBXGroup;
+			children = (
+				3FB7378418B7AABC00CC2689 /* main.m */,
+				3FB7378618B7AABC00CC2689 /* Supporting Files */,
+				3FB7379118B7BB9500CC2689 /* ChromeMessagingHost.h */,
+				3FB7379218B7BB9500CC2689 /* ChromeMessagingHost.m */,
+			);
+			path = "Chrome Messaging Host";
+			sourceTree = "<group>";
+		};
+		3FB7378618B7AABC00CC2689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB7378718B7AABC00CC2689 /* Chrome Messaging Host-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB7378D18B7ABA800CC2689 /* Common Code */ = {
+			isa = PBXGroup;
+			children = (
+				3FB7378E18B7AC5B00CC2689 /* MediaButtonEventTap.h */,
+				3FB7378F18B7AC5B00CC2689 /* MediaButtonEventTap.m */,
+			);
+			name = "Common Code";
+			sourceTree = "<group>";
+		};
+		3FB737B618B7E54D00CC2689 /* Media Button Relay */ = {
+			isa = PBXGroup;
+			children = (
+				3FB737C218B7E54D00CC2689 /* AppDelegate.h */,
+				3FB737C318B7E54D00CC2689 /* AppDelegate.m */,
+				3FB737E618B9A35600CC2689 /* PrivilegedFileWriter.h */,
+				3FB737E718B9A35600CC2689 /* PrivilegedFileWriter.m */,
+				3FB737C518B7E54E00CC2689 /* MainMenu.xib */,
+				3FB737C818B7E54E00CC2689 /* Images.xcassets */,
+				3FB737B718B7E54D00CC2689 /* Supporting Files */,
+			);
+			path = "Media Button Relay";
+			sourceTree = "<group>";
+		};
+		3FB737B718B7E54D00CC2689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB737B818B7E54D00CC2689 /* Media Button Relay-Info.plist */,
+				3FB737B918B7E54D00CC2689 /* InfoPlist.strings */,
+				3FB737BC18B7E54D00CC2689 /* main.m */,
+				3FB737BE18B7E54D00CC2689 /* Media Button Relay-Prefix.pch */,
+				3FB737BF18B7E54D00CC2689 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FC6EC6D18B72D6C00EAC77C = {
+			isa = PBXGroup;
+			children = (
+				3FB737B618B7E54D00CC2689 /* Media Button Relay */,
+				3FB7378D18B7ABA800CC2689 /* Common Code */,
+				3FB7378318B7AABC00CC2689 /* Chrome Messaging Host */,
+				3FC6EC7818B72D6F00EAC77C /* Frameworks */,
+				3FC6EC7718B72D6F00EAC77C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC6EC7718B72D6F00EAC77C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB7378118B7AABB00CC2689 /* Chrome Messaging Host */,
+				3FB737B418B7E54C00CC2689 /* Media Button Relay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC6EC7818B72D6F00EAC77C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB737E918B9A3BD00CC2689 /* Security.framework */,
+				3FB7379418B7BD8900CC2689 /* ApplicationServices.framework */,
+				3FC6EC7918B72D6F00EAC77C /* Cocoa.framework */,
+				3FC6ECB218B72E8600EAC77C /* Foundation.framework */,
+				3FB7379C18B7E09500CC2689 /* CoreFoundation.framework */,
+				3FC6EC7B18B72D7000EAC77C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC6EC7B18B72D7000EAC77C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6EC7C18B72D7000EAC77C /* AppKit.framework */,
+				3FC6EC7D18B72D7000EAC77C /* CoreData.framework */,
+				3FC6EC7E18B72D7000EAC77C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB7378018B7AABB00CC2689 /* Chrome Messaging Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB7378A18B7AABD00CC2689 /* Build configuration list for PBXNativeTarget "Chrome Messaging Host" */;
+			buildPhases = (
+				3FB7377D18B7AABB00CC2689 /* Sources */,
+				3FB7377E18B7AABB00CC2689 /* Frameworks */,
+				3FB7377F18B7AABB00CC2689 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chrome Messaging Host";
+			productName = "Chrome Messaging Host";
+			productReference = 3FB7378118B7AABB00CC2689 /* Chrome Messaging Host */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FB737B318B7E54C00CC2689 /* Media Button Relay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB737DB18B7E54F00CC2689 /* Build configuration list for PBXNativeTarget "Media Button Relay" */;
+			buildPhases = (
+				3FB737B018B7E54C00CC2689 /* Sources */,
+				3FB737B118B7E54C00CC2689 /* Frameworks */,
+				3FB737B218B7E54C00CC2689 /* Resources */,
+				3FB737E418B7F10300CC2689 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB737E218B7E5BA00CC2689 /* PBXTargetDependency */,
+			);
+			name = "Media Button Relay";
+			productName = "Media Button Relay";
+			productReference = 3FB737B418B7E54C00CC2689 /* Media Button Relay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC6EC6E18B72D6D00EAC77C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jeremy Roman";
+			};
+			buildConfigurationList = 3FC6EC7118B72D6E00EAC77C /* Build configuration list for PBXProject "Media Button Relay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC6EC6D18B72D6C00EAC77C;
+			productRefGroup = 3FC6EC7718B72D6F00EAC77C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB737B318B7E54C00CC2689 /* Media Button Relay */,
+				3FB7378018B7AABB00CC2689 /* Chrome Messaging Host */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB737B218B7E54C00CC2689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB737BB18B7E54D00CC2689 /* InfoPlist.strings in Resources */,
+				3FB737C918B7E54E00CC2689 /* Images.xcassets in Resources */,
+				3FB737C118B7E54D00CC2689 /* Credits.rtf in Resources */,
+				3FB737C718B7E54E00CC2689 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB7377D18B7AABB00CC2689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB7378518B7AABC00CC2689 /* main.m in Sources */,
+				3FB7379318B7BB9500CC2689 /* ChromeMessagingHost.m in Sources */,
+				3FB7379018B7AC5B00CC2689 /* MediaButtonEventTap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB737B018B7E54C00CC2689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB737C418B7E54D00CC2689 /* AppDelegate.m in Sources */,
+				3FB737E818B9A35600CC2689 /* PrivilegedFileWriter.m in Sources */,
+				3FB737BD18B7E54D00CC2689 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB737E218B7E5BA00CC2689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB7378018B7AABB00CC2689 /* Chrome Messaging Host */;
+			targetProxy = 3FB737E118B7E5BA00CC2689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB737B918B7E54D00CC2689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB737BA18B7E54D00CC2689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FB737BF18B7E54D00CC2689 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB737C018B7E54D00CC2689 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3FB737C518B7E54E00CC2689 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB737C618B7E54E00CC2689 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB7378B18B7AABD00CC2689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chrome Messaging Host/Chrome Messaging Host-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FB7378C18B7AABD00CC2689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chrome Messaging Host/Chrome Messaging Host-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FB737DC18B7E54F00CC2689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Media Button Relay/Media Button Relay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Media Button Relay/Media Button Relay-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FB737DD18B7E54F00CC2689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Media Button Relay/Media Button Relay-Prefix.pch";
+				INFOPLIST_FILE = "Media Button Relay/Media Button Relay-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FC6ECA518B72D7300EAC77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3FC6ECA618B72D7300EAC77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB7378A18B7AABD00CC2689 /* Build configuration list for PBXNativeTarget "Chrome Messaging Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB7378B18B7AABD00CC2689 /* Debug */,
+				3FB7378C18B7AABD00CC2689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FB737DB18B7E54F00CC2689 /* Build configuration list for PBXNativeTarget "Media Button Relay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB737DC18B7E54F00CC2689 /* Debug */,
+				3FB737DD18B7E54F00CC2689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC6EC7118B72D6E00EAC77C /* Build configuration list for PBXProject "Media Button Relay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC6ECA518B72D7300EAC77C /* Debug */,
+				3FC6ECA618B72D7300EAC77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC6EC6E18B72D6D00EAC77C /* Project object */;
+}

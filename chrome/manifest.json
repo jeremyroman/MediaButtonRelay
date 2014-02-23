@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Media Button Relay",
+  "version": "0.1.0",
+  "description": "Passes native media button presses to supported web apps.",
+  "author": "Jeremy Roman",
+  "background": {
+    "scripts": ["event_page.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {"matches": ["https://play.google.com/music/listen"], "js": ["google_play_music.js"]}
+  ],
+  "permissions": ["nativeMessaging"]
+}
